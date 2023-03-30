@@ -1,0 +1,24 @@
+/*Tag Gerais*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Geneva, sans-serif;
+}
+
+/*Estilizando Cabeçalho*/
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    border-bottom: 2px solid #32b9cd;
+}
+
+.container h1 {
+    display: flex;
+    align-items: center;
+}
