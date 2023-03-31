@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&family=Roboto+Condensed&display=swap');
+
 /*Tag Gerais*/
 
 body {
@@ -23,26 +25,146 @@ body {
     display: flex;
     align-items: center;
     color: #32B9CD;
+    font-family: 'Barlow', Arial, Helvetica, sans-serif;
+    font-weight: 500;
 }
 
 .navbar-container {
     display: flex;
-    justify-content: space-between;
-    width: auto;
+    justify-content: flex-end;
+    width: 100%;
     height: auto;
     align-items: center;
 }
 
 .navbar-items  {
     display: flex;
-    justify-content: space-between;
-    width: auto;
-    height: auto;
-    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+    height: 100%;
     align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.conteudo-navbar {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    row-gap: 2vw;
+    align-items: center;
+
+}
+
+.navbar-items li {
+    display: flex;
+    margin: 0vh 1vw;
+
 }
 
 .navbar-items li a {
     color: #E3B062;
     text-decoration: none;
+    font-family: 'Barlow', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.navbar-items :hover {
+    color: #99fcf398;
+}
+
+/*Estilizando Corpo Site*/
+
+.container-conteudo-pagina {
+    width: auto;
+    height: 550px;
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-pagina {
+    width: 27vw;
+    height: 55vh;
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+#ola-de-volta-h1 {
+    color: #E6005A;
+    font-family: 'Barlow', Arial, Helvetica, sans-serif;
+    margin: 2vh 0;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+
+.subtitulos-inputs {
+    font-family: 'Barlow', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #E6005A;
+    margin: 0.5vh 0 0 0;
+    font-size: 20px;
+}
+
+.input-styles {
+    width: 15vw;
+    height: 5vh;
+    border: #32B9CD solid 2px;
+    border-radius: 6.5px;
+    margin: 1.5vh 0 2vh 0;
+    text-align: center;
+    font-family: 'Barlow', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.enviar-btn {
+    width: 9vw;
+    height: 6vh;
+    background-color: #E6005A;
+    color: white;
+    font-family: 'Barlow', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: #fff 0px solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
+    cursor: pointer;
+}
+
+.enviar-btn:hover,
+.enviar-btn:focus {
+    transition: 0.5s;
+    background-color: rgb(226, 226, 226);
+    border: #E6005A solid 1px;
+    color: #E6005A;
+}
+
+/* Editando Rodaé */
+.rodape-container {
+    width: auto;
+    height: 150px;
+    background-color: #32B9CD;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.rodape-texto {
+    font-family: 'Barlow', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    a
 }
