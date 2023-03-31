@@ -16,9 +16,33 @@ body {
 
 .header {
     border-bottom: 2px solid #32b9cd;
+    background-color: black;
 }
 
 .container h1 {
     display: flex;
     align-items: center;
+    color: #32B9CD;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+
+.navbar-items  {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-items li a {
+    color: #E3B062;
+    text-decoration: none;
 }
